@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(assorted_words)
   assorted_words.each { |word|
-  if call.length < 4
+  if word.length < 4
     answer = false
   else
     answer = true

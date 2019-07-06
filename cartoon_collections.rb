@@ -3,6 +3,7 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 assorted_words = ["two", "go", "industrious", "bop"]
 snacks = ["crackers", "gouda", "thyme"]
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+cheese_types = ["cheddar", "gouda", "camembert"]
 
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index { |item, index|
@@ -24,8 +25,7 @@ def long_planeteer_calls(assorted_words)
 end
 
 def find_the_cheese(snacks)
-  if snacks.any? {||}
-  snacks.include? (cheese_types)
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese.find do |cheese|
+    cheese_types.include?(cheese)
+  end
 end

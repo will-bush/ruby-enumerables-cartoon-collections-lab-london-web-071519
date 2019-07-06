@@ -1,6 +1,7 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 assorted_words = ["two", "go", "industrious", "bop"]
+snacks = ["crackers", "gouda", "thyme"]
 
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index { |item, index|

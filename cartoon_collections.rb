@@ -7,11 +7,6 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def roll_call_dwarves(dwarfs)
-  dwarfs.each_with_index do | name , index |
-    puts "#{index + 1} #{name}"
-  end
-end
 
 #def roll_call_dwarves(array)
 #  i = 0 

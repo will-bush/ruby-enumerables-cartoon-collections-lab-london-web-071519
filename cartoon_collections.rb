@@ -11,7 +11,8 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map! {|name| name.capitalize + "!"}
 end
 
-def long_planeteer_call(
+def long_planeteer_call(assorted_words)
+  assorted_words.
   # Your code here
 end
 

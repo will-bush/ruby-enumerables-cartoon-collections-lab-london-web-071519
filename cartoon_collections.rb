@@ -24,7 +24,7 @@ def long_planeteer_calls(assorted_words)
 end
 
 def find_the_cheese(snacks)
-  if
+  if snacks.any? {||}
   snacks.include? (cheese_types)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]

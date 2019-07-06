@@ -2,6 +2,7 @@ dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 assorted_words = ["two", "go", "industrious", "bop"]
 snacks = ["crackers", "gouda", "thyme"]
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index { |item, index|
@@ -22,7 +23,8 @@ def long_planeteer_calls(assorted_words)
   answer
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(snacks)
+  snacks.
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end

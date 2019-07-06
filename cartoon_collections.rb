@@ -17,6 +17,7 @@ def long_planeteer_calls(assorted_words)
     answer = false
   else
     answer = true
+  end
   }
   answer
 end

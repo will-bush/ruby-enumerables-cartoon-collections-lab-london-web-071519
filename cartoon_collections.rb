@@ -17,6 +17,8 @@ def long_planeteer_call(assorted_words)
     answer = false
   else
     answer = true
+  end
+  answer
 end
 
 def find_the_cheese# code an argument here

@@ -12,7 +12,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(assorted_words)
-  assorted_words.each {|word|
+  assorted_words.each { |word|
   if call.length < 4
     answer = false
   else

@@ -25,7 +25,7 @@ def long_planeteer_calls(assorted_words)
 end
 
 def find_the_cheese(snacks)
-  cheese.find do |cheese|
+  snacks.find do |cheese|
     cheese_types.include?(cheese)
   end
 end
